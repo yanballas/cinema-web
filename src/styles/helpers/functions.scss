@@ -20,8 +20,8 @@
 	@return
 	 clamp(
 		#{$minSize * 1rem},
-		#{$yAxisIntersections * 1rem} * #{slope * 100vw},
-		#{maxSize * 1rem}
+		#{$yAxisIntersections * 1rem} * #{$slope * 100vw},
+		#{$maxSize * 1rem}
 	)
 }
 
